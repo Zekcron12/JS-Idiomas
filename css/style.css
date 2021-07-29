@@ -143,6 +143,7 @@ y todos los siguientes*/
   width: 37.5rem;
   max-width: 100%;
   padding: 1.875rem 1.875rem;
+  margin: 0.625rem;
   border-radius: 0.625rem;
   background: #131319;
   box-shadow: var(--dark-box-shadow);
