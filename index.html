@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1B7578">
+  <meta name="description" content="Proyecto de practica - Idiomas JS">
+  <meta name="author" content="ZKC">
+  <meta name="copyright" content="Todos los derechos reservados © a 'Jesús Alberto' autor de la base">
+
+  <title>Proyecto Idiomas JS</title>
+
+  <script src="https://kit.fontawesome.com/c3a0547943.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" href="img/js.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-------------------- Cuerpo Principal -------------------->
+  <main>
+    <div class="container-flag" id="flag">
+      <div class="container-text">
+        <h2 id="myText" class="text">Flag...</h2> <!--data-text="HelloWorld..."-->
+        <p id="myLanguage">(Inglés)</p>
+        <img src="img/flag/ingles.png" class="flag" id="flag-img" alt="banderas">
+      </div>
+    </div>
+  </main>
+  <!-------------------- Fin - Cuerpo Principal -------------------->
+
+  <!-------------------- Boton de redes sociales -------------------->
+  <section>
+    <div class="container-button">
+       <input type="checkbox" class="button-main" id="button-main">
+
+       <div class="redes">
+        <a id="open" class="fas fa-pencil-alt"><input type="button"></a>
+        <a href="https://facebook.com/AlfredCallejero" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/Alfred17_" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://instagram.com/barragan.alfred12" target="_blank" class="fa fa-instagram"></a>
+       </div>
+
+       <div class="button-secondary">
+          <label for="button-main" class="fa fa-plus"></label>
+       </div>
+    </div>
+  </section>
+  <!-------------------- Fin - Boton de redes sociales -------------------->
+
+  <!-- Sobre Mi - POP UP -->
+  <section id="modal_sobremi" class="modal-container">
+    <div class="modal">
+      <button id="close" class="boton-popup"><i class="fas fa-times-circle"></i></button>
+      <h1>Bitácora</h1>
+      <p>El propósito del proyecto fue realizar práctica para mantener un plazo de estudio el cual tiene como objetivo principal el aprendizaje del lenguaje de programación JavaScript y de la correcta maquetación.</p>
+      <br>
+      <p>Proyecto realizado con las tecnologías:</p>
+      <p><span>▶ HTML5</span></p>
+      <p><span>▶ CSS3</span></p>
+      <p><span>▶ JavaScript</span></p>
+
+      <p>Conocimientos aplicados:</p>
+      <p><span>▶ Variables</span></p>
+      <p><span>▶ Constantes</span></p>
+      <p><span>▶ Función flecha</span></p>
+      <p><span>▶ Condicionales</span></p>
+      <br>
+      <p class="author">Reconocimiento a Jesús Alberto quien planteo la base del proyecto.</p>
+    </div>
+  </section>
+  <!-- Fin de Sobre Mi - POP UP -->
+
+	<script src="js/main.js"></script>
+  <!--<script>document.oncontextmenu = function(){return false;}</script>--> <!--Bloquear -->
+</body>
+</html>
