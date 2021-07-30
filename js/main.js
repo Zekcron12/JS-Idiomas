@@ -1,25 +1,22 @@
+//Constantes
 const myText = document.getElementById('myText');
 const myLanguage = document.getElementById('myLanguage');
 const flagImg = document.getElementById('flag-img');
 const flag = document.getElementById('flag');
-
-/*document.onclick = function() {
-  myText.innerHTML = 'HolaMundo...';
-  myText.dataset.text = 'HolaMundo...';
-}*/
 
 
 // Cambiar texto
 let numClicks = 0;
 flag.onclick = function() {run()};
 
+//funcion que ejecuta el procedimiento
 const run = () => {
 
   // Variable
   numClicks = numClicks + 1;
 
   // Switch
-  switch (numClicks) {
+  switch (numClicks) { //switch condicional 
     // Español
     case 1:
       myText.textContent = 'Bandera...';
@@ -139,8 +136,71 @@ const run = () => {
       myLanguage.textContent = '(Chino)';
       flagImg.src = 'img/flag/chino.png';
     break;
-    // Volver al principio (Ingles)
+    // Ucraniano
     case 18:
+      myText.textContent = 'Прапор...';
+      myText.dataset.text = 'Прапор...';
+      myLanguage.textContent = '(Ucraniano)';
+      flagImg.src = 'img/flag/ucrania.png';
+    break;
+    // Sueco
+    case 19:
+      myText.textContent = 'Flagga...';
+      myText.dataset.text = 'Flagga...';
+      myLanguage.textContent = '(Sueco)';
+      flagImg.src = 'img/flag/suiza.png';
+    break;
+    // Serbio
+    case 20:
+      myText.textContent = 'Застава...';
+      myText.dataset.text = 'Застава...';
+      myLanguage.textContent = '(Serbio)';
+      flagImg.src = 'img/flag/serbia.png';
+    break;
+    // Rumano
+    case 21:
+      myText.textContent = 'Steag...';
+      myText.dataset.text = 'Steag...';
+      myLanguage.textContent = '(Rumano)';
+      flagImg.src = 'img/flag/rumania.png';
+    break;
+    // Nepalí
+    case 22:
+      myText.textContent = 'झण्डा...';
+      myText.dataset.text = 'झण्डा...';
+      myLanguage.textContent = '(Nepalí)';
+      flagImg.src = 'img/flag/nepali.png';
+    break;
+    // Vietnamita
+    case 23:
+      myText.textContent = 'Lá cờ...';
+      myText.dataset.text = 'Lá cờ...';
+      myLanguage.textContent = '(Vietnamita)';
+      flagImg.src = 'img/flag/vietnam.png';
+    break;
+    // Estonio
+    case 24:
+      myText.textContent = 'Lipp...';
+      myText.dataset.text = 'Lipp...';
+      myLanguage.textContent = '(Estonio)';
+      flagImg.src = 'img/flag/estonio.png';
+    break;
+    // Mongol
+    case 25:
+      myText.textContent = 'Туг...';
+      myText.dataset.text = 'Туг...';
+      myLanguage.textContent = '(Mongol)';
+      flagImg.src = 'img/flag/mongolia.png';
+    break;
+    // Croata
+    case 26:
+      myText.textContent = 'Zastava...';
+      myText.dataset.text = 'Zastava...';
+      myLanguage.textContent = '(Croata)';
+      flagImg.src = 'img/flag/croacia.png';
+    break;
+    // Volver al principio (Ingles)
+    case 27:
       numClicks = 0;
       myText.textContent = 'Flag...';
       myText.dataset.text = 'Flag...';
